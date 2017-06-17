@@ -1,1 +1,1 @@
-# yachtpassion
+# yachtpassion.github.io

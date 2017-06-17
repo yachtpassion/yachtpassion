@@ -1,0 +1,252 @@
+body {
+  color: #222; }
+
+a {
+  color: #374BAD; }
+
+p,
+body .main_footer,
+.s_about li {
+  color: #000; }
+
+.color_element {
+  color: #374BAD; }
+
+.color_bg {
+  background-color: #374BAD; }
+
+.color_border {
+  border-color: #374BAD; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #403E3E;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+.top_mnu a:hover {
+  color: #374BAD; }
+.top_mnu a {
+  letter-spacing: 4px; }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 3px; }
+
+.personal_header {
+  letter-spacing: 2px; }
+
+.s_descr {
+  letter-spacing: 4px; }
+  .s_descr::after {
+    background-color: #222; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #000; }
+
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600; }
+
+.sec-what-need {
+  color: #D0CFCF;
+}
+
+.resume_item .year {
+  background-color: #374BAD;
+  color: #fff; }
+.resume_item .resume_description {
+  letter-spacing: 1px; }
+
+.s_portfolio li {
+  color: #888;
+  letter-spacing: 2px; }
+.s_portfolio li.active {
+  color: #fff;
+  border-bottom: 1px solid #374BAD; }
+
+.portfolio_item .port_item_cont a {
+  border-color: #374BAD;
+  color: #374BAD; }
+
+.main_footer a {
+  color: #fff; }
+
+.main_footer a:hover {
+  color: #526AE0;
+}
+
+.contacts_icon {
+  color: #374BAD; }
+
+.text-danger {
+  color: #374BAD; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #374BAD; }
+form input,
+form textarea {
+  letter-spacing: 2px; }
+form button {
+  background-color: #374BAD;
+  letter-spacing: 2px; }
+
+form button:hover {
+  background-color: #526AE0;}
+
+form .form-group {
+  letter-spacing: 2px;
+  color: #888; }
+
+.popup_content {
+  letter-spacing: 1px; }
+
+.lease {
+  width: 190px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  color: #374BAD;
+  line-height: 40px;
+  padding: 0 25px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 15px;
+  letter-spacing: 2px;
+  outline: none;
+}
+
+.lease-cost {
+  font-size: 30px;
+}
+
+.lease-date {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 990px) {
+.lease-date {
+ width: 190px;
+  }
+}
+
+.lease-date-from,
+.lease-date-to {
+  width: 190px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  outline: none;
+  border: 1px solid #dcdcdc;
+  color: #374BAD;
+  line-height: 40px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.lease-date-from:active,
+.lease-date-to:active {
+  border: 1px solid #dcdcdc;
+}
+
+.lease-date-from {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 990px) {
+.lease-date-from {
+ margin-right: 0px;
+  }
+}
+
+.lease-cost {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 990px) {
+.lease-cost {
+ margin-right: 0px;
+  }
+}
+
+.lease-date-to {
+  margin-bottom: 0px;
+}
+
+.up-form {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ui-corner-all {
+  margin: 0 auto;
+}
+
+.ui-widget-content {
+  width: 400px!important;
+}
+
+@media screen and (max-width: 990px) {
+.ui-widget-content {
+ width: 190px!important;
+  }
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  text-align: center;
+  color: #374BAD!important;
+}
+
+.dp-highlight .ui-state-default {
+    background-color: #3dc644!important;
+}
+
+
+.mobile-invisible {
+  width: 450px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+.mobile-invisible {
+display: none;
+  }
+}
+
+.mobile-visible {
+  display: none;
+  text-align: center;
+  color: #fff;
+  font-family: Open Sans, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 500px) {
+.mobile-visible {
+display: block;
+  }
+}
